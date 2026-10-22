@@ -240,6 +240,6 @@ if __name__ == "__main__":
                 os.environ.setdefault(k.strip(), v.strip())
 
     port = int(os.environ.get("PORT", get_available_port(7860)))
-    share = os.environ.get("SHARE", "false").lower() in ("true", "1")
-    print(f"Launching ClassInsight AI on port {port}...")
+    share = os.environ.get("SHARE", "true").lower() in ("true", "1")
+    print(f"Launching ClassInsight AI on port {port} (share={share})...")
     build_ui().launch(server_name="0.0.0.0", server_port=port, share=share, show_error=True, css=CSS)
