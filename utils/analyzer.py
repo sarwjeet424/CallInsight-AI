@@ -16,16 +16,18 @@ MODEL_VISION = "nvidia/nemotron-3.5-super-vl:free"
 FALLBACK_TEXT_MODELS = [
     "nvidia/nemotron-3.5-lightning:free",
     "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "mistralai/mistral-7b-instruct:free",
-    "meta-llama/llama-3.2-3b-instruct:free",
+    "poolside/laguna-s-2.1:free",
+    "xingchen-agi/xing4.0-29b-a4b:free",
 ]
 
 FALLBACK_VISION_MODELS = [
     "nvidia/nemotron-3.5-super-vl:free",
     "google/gemma-4-26b-a4b-it:free",
-    "dots-studio/dots-3-note-preview:free",
-    "meta-llama/llama-3.2-11b-vision-instruct:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
 ]
 
 
